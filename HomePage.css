@@ -1,0 +1,35 @@
+li
+{
+  /* display:inline;  1. It removes the line break before and after each list item */
+  float: left; /*2. get block elements to float next to each other */
+  display: block; /*allows to use margin, padding*/
+  padding: 5px;
+}
+
+.navLogo
+{
+  width: 20px;
+  height: 20px;
+}
+
+.navButton
+{
+  border: none;
+  background-color: white;
+}
+
+.navButton:hover
+{
+  border-bottom: 2px solid magenta;
+}
+
+.navImage
+{
+  width: 20px;
+  height: 20px;
+}
+
+.navIcons
+{
+  display: block;
+}
